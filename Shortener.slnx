@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Shortener/Shortener.csproj" Id="962030fb-4bc8-4176-af29-a13b1dbcd7a8" />
+  </Folder>
+</Solution>
