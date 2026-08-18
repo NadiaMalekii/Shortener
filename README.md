@@ -37,6 +37,8 @@ Each short code is managed by its own grain for scalability and isolation.
 ---
 
 ## Project Structure
+
+```
 Shortener/
 ├── src/
 │   ├── Shortener.WebApi/
@@ -64,4 +66,5 @@ Shortener/
 ├── appsettings.json
 ├── appsettings.Development.json
 └── README.md
-## Project Structure
+
+```
