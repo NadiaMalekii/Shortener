@@ -1,10 +1,3 @@
-
-
----
-
-### 2. Shortener
-
-```markdown
 # Shortener
 
 <p align="center">
@@ -42,3 +35,4 @@ Each short code is managed by its own grain for scalability and isolation.
 | Minimal APIs            | Lightweight endpoint definition  |
 
 ---
+
