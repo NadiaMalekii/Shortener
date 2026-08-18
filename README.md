@@ -36,3 +36,32 @@ Each short code is managed by its own grain for scalability and isolation.
 
 ---
 
+## Project Structure
+Shortener/
+├── src/
+│   ├── Shortener.WebApi/
+│   │   ├── Endpoints/
+│   │   ├── Middleware/
+│   │   └── Program.cs
+│   ├── Shortener.Domain/
+│   │   ├── Entities/
+│   │   └── Interfaces/
+│   ├── Shortener.Application/
+│   │   ├── Grains/
+│   │   │   ├── IUrlShortenerGrain.cs
+│   │   │   └── UrlShortenerGrain.cs
+│   │   ├── Services/
+│   │   └── DTOs/
+│   └── Shortener.Infrastructure/
+│       ├── Repositories/
+│       └── Extensions/
+├── tests/
+│   ├── Shortener.Tests.Unit/
+│   └── Shortener.Tests.Integration/
+├── Shortener.slnx
+├── docker-compose.yml
+├── Dockerfile
+├── appsettings.json
+├── appsettings.Development.json
+└── README.md
+## Project Structure
